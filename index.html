@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>برنامه حمایت روان‌شناختی کارکنان سلامت روان در بحران</title>
+<style>
+:root{--blue:#0b5fa9;--blue2:#123c79;--sky:#eaf5ff;--yellow:#f6c515;--ink:#17314f;--muted:#617287;--line:#dbe8f3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.9}a{text-decoration:none;color:inherit}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}
+nav{position:sticky;top:0;z-index:20;background:var(--blue2);color:#fff}.navin{min-height:54px;display:flex;align-items:center;justify-content:center;gap:28px;font-size:14px;font-weight:700;flex-wrap:wrap}.active{color:var(--yellow);border-bottom:3px solid var(--yellow)}
+.logos{background:white;border-bottom:1px solid #eef3f8}.logo-grid{display:grid;grid-template-columns:repeat(4,1fr);align-items:center;padding:16px 0}.logo{min-height:110px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 20px;border-left:1px solid #dce7f0;font-weight:800;color:var(--blue2)}.logo:last-child{border-left:0}.logo.assoc{background:linear-gradient(180deg,#fff,#fffbe6);color:#557d00}.logo .mark{display:block;font-size:42px;line-height:1;margin-bottom:8px}
+.hero{background:linear-gradient(180deg,#fff,#f7fbff);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:50px 0}.hero-visual{min-height:360px;border-radius:32px;background:linear-gradient(135deg,#d8efff,#f8fbff 55%,#fff3b2);position:relative;overflow:hidden}.hero-visual:before,.hero-visual:after{content:"";position:absolute;border-radius:50%;background:rgba(11,95,169,.14)}.hero-visual:before{width:260px;height:260px;right:-70px;top:50px}.hero-visual:after{width:210px;height:210px;left:-50px;bottom:-40px}.people{position:absolute;inset:0;display:grid;place-items:center;font-size:110px}.hero-copy h1{font-size:clamp(34px,4vw,56px);line-height:1.45;margin:0 0 20px;color:var(--blue2)}.hero-copy p{font-size:17px;margin:0 0 20px}.notice{background:linear-gradient(90deg,#fff5c5,#ffd84e);border-radius:999px;padding:11px 18px;font-weight:800;color:#544600;width:fit-content;max-width:100%}
+section{padding:56px 0}.title{text-align:center;margin-bottom:28px}.title h2{font-size:30px;margin:0;color:var(--blue2)}.accent{width:170px;height:4px;background:linear-gradient(90deg,var(--yellow),transparent,var(--yellow));margin:12px auto 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff;box-shadow:0 10px 28px rgba(21,70,118,.07)}.card:nth-child(2){background:linear-gradient(180deg,#fffdf2,#fff)}.ico{width:54px;height:54px;border-radius:16px;background:#fff3b8;display:grid;place-items:center;font-size:27px;margin-bottom:12px}.card h3{margin:0 0 8px;color:var(--blue2);font-size:20px}.card p{margin:0;color:#56687b}
+.files{background:#fbfdff}.file-placeholder{border:2px dashed #b9d4e9;border-radius:22px;padding:30px;text-align:center;background:linear-gradient(135deg,#f8fcff,#fffaf0);color:#617287}.file-placeholder strong{display:block;color:var(--blue2);font-size:19px;margin-bottom:5px}
+.centers{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.center{background:#edf6fd;border-radius:999px;padding:10px 15px;display:flex;gap:10px;align-items:center;font-weight:700;color:var(--blue2)}.pin{width:25px;height:25px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;font-size:12px;flex:none}.muted{color:#8b99a7;font-weight:500}
+.eval{background:linear-gradient(135deg,#eaf5ff 0%,#fff 65%,#fff5c7 100%);border:1px solid var(--line);border-radius:28px;padding:32px;display:grid;grid-template-columns:1.2fr auto;gap:25px;align-items:center}.eval h2{margin:0 0 8px;color:var(--blue2)}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:11px 22px;border-radius:999px;border:2px solid var(--blue);font-weight:800;color:var(--blue);background:#fff}.btn.primary{background:var(--yellow);border-color:var(--yellow);color:#1e3550}
+.contacts{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact{border:1px solid #b9ccdd;border-radius:18px;padding:24px;background:#fff}.contact h3{margin:0 0 12px;color:var(--blue2)}.pending{display:inline-block;background:#f0f3f6;color:#7c8994;border-radius:999px;padding:3px 10px;font-size:13px}
+footer{background:var(--blue2);color:#fff;margin-top:50px}.footline{height:6px;background:linear-gradient(90deg,var(--blue),var(--yellow))}.foot{padding:22px 0;display:flex;gap:22px;justify-content:space-between;font-size:13px;flex-wrap:wrap}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.logo-grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.centers{grid-template-columns:1fr 1fr}.eval{grid-template-columns:1fr}.contacts{grid-template-columns:1fr}}
+@media(max-width:560px){.centers{grid-template-columns:1fr}.actions{flex-direction:column}.btn{text-align:center}.hero-copy h1{font-size:34px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="active" href="#home">صفحه اصلی</a><a href="#about">درباره برنامه</a><a href="#components">اجزای برنامه</a><a href="#files">فایل‌های آموزشی</a><a href="#centers">مراکز منتخب</a><a href="#evaluation">ارزیابی و نظرسنجی</a><a href="#contact">تماس با ما</a></div></nav>
+
+<div class="logos"><div class="wrap logo-grid">
+<div class="logo assoc"><div><span class="mark">Ψ</span>انجمن علمی روان‌پزشکان ایران</div></div>
+<div class="logo"><div><span class="mark">◉</span>دفتر سلامت روانی، اجتماعی و اعتیاد</div></div>
+<div class="logo"><div><span class="mark">🇪🇺</span>حمایت بشردوستانه اتحادیه اروپا</div></div>
+<div class="logo"><div><span class="mark">⚕</span>سازمان جهانی بهداشت</div></div>
+</div></div>
+
+<main id="home">
+<section id="about" class="hero"><div class="wrap hero-grid">
+<div class="hero-copy"><h1>برنامه حمایت روان‌شناختی کارکنان سلامت روان در بحران</h1>
+<p>این برنامه توسط انجمن روان‌پزشکان ایران با همکاری وزارت بهداشت، درمان و آموزش پزشکی و سازمان جهانی بهداشت با هدف حمایت از کارکنان نظام سلامت در بحران و ارتقای سلامت روان آنان اجرا می‌شود.</p>
+<div class="notice">رویکرد این برنامه درمانی نبوده و عمدتاً حمایتی و آموزشی است.</div></div>
+<div class="hero-visual"><div class="people">👩‍⚕️ 👨‍⚕️ 👩‍⚕️</div></div>
+</div></section>
+
+<section id="components"><div class="wrap"><div class="title"><h2>اجزای برنامه</h2><div class="accent"></div></div><div class="cards">
+<div class="card"><div class="ico">👥</div><h3>گروه‌های حمایتی همتایان</h3><p>فضایی برای گفت‌وگو، تبادل تجربه و حمایت متقابل کارکنان در مواجهه با فشارهای روانی و شرایط دشوار کاری.</p></div>
+<div class="card"><div class="ico">📘</div><h3>آموزش</h3><p>شامل کمک‌های اولیه روان‌شناختی، خودمراقبتی، و مواجهه با تروما و سوگ.</p></div>
+<div class="card"><div class="ico">🤲</div><h3>حمایت روان‌شناختی و ارجاع</h3><p>پاسخ به نیازهای کارکنان و تسهیل ارجاع به خدمات تخصصی سلامت روان در صورت نیاز.</p></div>
+</div></div></section>
+
+<section class="files" id="files"><div class="wrap"><div class="title"><h2>فایل‌های آموزشی</h2><div class="accent"></div></div><div class="file-placeholder"><strong>این بخش برای فایل‌های آموزشی رزرو شده است</strong>پس از دریافت فایل‌های نهایی، PDF یا اسلایدها بدون ایجاد دسته‌بندی فرضی در همین بخش قرار می‌گیرند.</div></div></section>
+
+<section id="centers"><div class="wrap"><div class="title"><h2>مراکز منتخب برنامه</h2><div class="accent"></div></div><div class="centers">
+<div class="center"><span class="pin">1</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">2</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">3</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">4</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">5</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">6</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">7</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">8</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">9</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">10</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">11</span><span class="muted">نام مرکز تکمیل می‌شود</span></div><div class="center"><span class="pin">12</span><span class="muted">نام مرکز تکمیل می‌شود</span></div>
+</div></div></section>
+
+<section id="evaluation"><div class="wrap"><div class="eval"><div><h2>ارزیابی و نظرسنجی</h2><p>نظرات و تجربیات شما به ما کمک می‌کند تا برنامه را متناسب با نیازهای شما تنظیم کرده و ارتقا دهیم. لینک‌های نهایی بعداً به دکمه‌های این بخش اضافه می‌شوند.</p></div><div class="actions"><a class="btn primary" href="#">شرکت در نظرسنجی</a><a class="btn" href="#">ارزیابی برنامه</a></div></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="title"><h2>راه‌های ارتباطی</h2><div class="accent"></div></div><div class="contacts">
+<div class="contact"><h3>ارتباط با انجمن</h3><p><b>ایمیل انجمن علمی روان‌پزشکان:</b> <span class="pending">در انتظار اطلاعات نهایی</span></p><p><b>شماره تماس خانم حریری‌فر:</b> <span dir="ltr">09109689763</span></p></div>
+<div class="contact"><h3>ثبت شکایت</h3><p><b>ایمیل ثبت شکایت:</b> <span class="pending">بعداً اضافه می‌شود</span></p></div>
+</div></div></section>
+</main>
+
+<footer><div class="footline"></div><div class="wrap foot"><span>انجمن علمی روان‌پزشکان ایران</span><span>دفتر سلامت روانی، اجتماعی و اعتیاد</span><span>سازمان جهانی بهداشت</span><span>حمایت بشردوستانه اتحادیه اروپا</span></div></footer>
+</body></html>
